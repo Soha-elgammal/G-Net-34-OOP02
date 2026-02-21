@@ -108,6 +108,27 @@
     //}
 
     #endregion Q3
+    #region Q4 
+    //public class Order
+    //{
+    //    // Q4 - a
+    //    public static int TotalOrders = 0;
+
+    //    public string Item;
+
+    //    public Order(string item)
+    //    {
+    //        Item = item;
+    //        TotalOrders++;
+    //    }
+
+    //    // Q4 - b
+    //    public static int GetTotalOrders()
+    //    {
+    //        return TotalOrders;
+    //    }
+    //}
+    #endregion Q4 
     internal class Program
     {
         static void Main(string[] args)
@@ -138,6 +159,15 @@
             //register[10] = "Test";
             //Console.WriteLine(register["Ali"]);
             #endregion Q3
+            #region Q4 
+            //Order o1 = new Order("Laptop");
+            //Order o2 = new Order("Phone");
+
+            //Console.WriteLine("Item 1: " + o1.Item);
+            //Console.WriteLine("Item 2: " + o2.Item);
+
+            //Console.WriteLine("Total Orders: " + Order.GetTotalOrders());
+            #endregion Q4
             #endregion part 1
 
         }
