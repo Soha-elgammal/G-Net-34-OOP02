@@ -71,6 +71,43 @@
     //    }
     //}
     #endregion Q2
+    #region Q3 
+    //public class StudentRegister
+    //{
+    //    private string[] names = new string[5];
+
+    //    // Q3 - a
+    //    public string this[int index]
+    //    {
+    //        get
+    //        {
+    //            if (index >= 0 && index < names.Length)
+    //                return names[index];
+    //            return null;
+    //        }
+    //        set
+    //        {
+    //            if (index >= 0 && index < names.Length)
+    //                names[index] = value;
+    //        }
+    //    }
+
+    //    // Q3 - c
+    //    public string this[string name]
+    //    {
+    //        get
+    //        {
+    //            foreach (var n in names)
+    //            {
+    //                if (n == name)
+    //                    return n;
+    //            }
+    //            return null;
+    //        }
+    //    }
+    //}
+
+    #endregion Q3
     internal class Program
     {
         static void Main(string[] args)
@@ -92,6 +129,15 @@
             //Console.WriteLine("Price: " + p.Price);
             //Console.WriteLine("Price After Tax: " + p.PriceAfterTax);
             #endregion Q2 
+            #region Q3 
+            //StudentRegister register = new StudentRegister();
+            //register[0] = "Ali";
+            //register[1] = "Sara";
+            //Console.WriteLine(register[0]);
+            //// Q3 - b
+            //register[10] = "Test";
+            //Console.WriteLine(register["Ali"]);
+            #endregion Q3
             #endregion part 1
 
         }
