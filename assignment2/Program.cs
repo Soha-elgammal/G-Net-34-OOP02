@@ -1,6 +1,6 @@
 ﻿namespace assignment2
 {
-    
+
     #region Q1
     // Q1 - a
     // Problems in the original design:
@@ -47,18 +47,53 @@
     // - Hard to control or modify behavior later
 
     #endregion
+    #region Q2
+    //public class Product
+    //{
+    //    private double price;
+
+    //    public double Price
+    //    {
+    //        get { return price; }
+    //        set
+    //        {
+    //            if (value > 0)
+    //                price = value;
+    //        }
+    //    }
+
+    //    public double PriceAfterTax
+    //    {
+    //        get
+    //        {
+    //            return price * 1.14;
+    //        }
+    //    }
+    //}
+    #endregion Q2
     internal class Program
     {
         static void Main(string[] args)
         {
-            // part 1 
-            // Q1 :
+            #region part 1
+            #region Q1
             //BankAccount account = new BankAccount();
 
             //account.Owner = "Soha";
             //account.Withdraw(50);
 
             //Console.WriteLine("Owner: " + account.Owner);
+            #endregion Q1
+            #region Q2
+            //Product p = new Product();
+
+            //p.Price = 100;
+
+            //Console.WriteLine("Price: " + p.Price);
+            //Console.WriteLine("Price After Tax: " + p.PriceAfterTax);
+            #endregion Q2 
+            #endregion part 1
+
         }
     }
 }
